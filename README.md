@@ -1,16 +1,80 @@
-# flutter_application_1
+# 📱 Aplikasi Formulir Flutter
 
-A new Flutter project.
+Aplikasi sederhana menggunakan Flutter yang memungkinkan pengguna mengisi formulir dengan nama dan email, lalu menyimpan data ke daftar yang ditampilkan di halaman utama.
 
-## Getting Started
+Fitur tambahan termasuk **edit** dan **hapus**
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🧹 Fitur Utama
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- ✅ Input Form Nama & Email
+- ✅ Tampilkan Data di Beranda
+- ✅ Edit & Hapus Data
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 📂 Struktur Folder
+
+```
+
+lib/
+
+│
+├── main.dart # Entry point aplikasi
+│
+├── screens/
+│ ├── home_screen.dart # Halaman utama dengan daftar data
+│ └── form_screen.dart # Halaman formulir input/edit
+│
+├── utils/
+│ └── shared_prefs_helper.dart # Fungsi penyimpanan data lokal
+
+```
+
+---
+
+## 🚀 Cara Menjalankan
+
+1.  **Clone repository** ini atau salin semua file ke project Flutter-mu.
+2.  **Install dependencies:**
+
+```bash
+
+flutter  pub  get
+
+```
+
+3.  **Jalankan aplikasi:**
+
+```bash
+
+flutter  run
+
+```
+
+---
+
+## 🛆 Dependency
+
+Tambahkan ini di `pubspec.yaml`:
+
+```yaml
+dependencies:
+
+flutter:
+sdk: flutter
+shared_preferences: ^2.2.2
+```
+
+---
+
+## 👨‍💻 Kontribusi
+
+Jika ingin menambahkan fitur (misalnya filter pencarian, validasi lebih lanjut, atau penyimpanan cloud), silakan pull request atau modifikasi sesukamu.
+
+---
+
+## 📃 Lisensi
+
+Aplikasi ini bebas digunakan untuk keperluan belajar, eksperimen, dan pengembangan pribadi.
