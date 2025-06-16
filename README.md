@@ -14,6 +14,15 @@ Fitur tambahan termasuk **edit** dan **hapus**
 
 ---
 
+## 📂 Preview
+
+![image](https://github.com/user-attachments/assets/da23d284-db4d-4bac-8b84-e61db6a0bc48)
+![image](https://github.com/user-attachments/assets/e41e74a7-fcee-48ff-932d-f43d6d7c4204)
+![image](https://github.com/user-attachments/assets/db5ebc16-5b95-4f3a-9bfa-a070c5744433)
+![image](https://github.com/user-attachments/assets/9c78b09d-7e80-49e8-88ae-11373f31489c)
+
+---
+
 ## 📂 Struktur Folder
 
 ```
